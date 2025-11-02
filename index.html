@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet" />
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #007dff;
+        color: white;
+        padding: 15px;
+        width: 85%;
+        position: relative;
+        left: 15%;
+      }
+      a,
+      nav {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+      }
+      aside {
+        background-color: #e0e0e0;
+        padding: 20px;
+        width: 15%;
+        height: 100vh;
+        text-align: left;
+        position: fixed;
+        top: 0;
+      }
+      img {
+        width: 100%;
+        
+        border-radius: 50%;
+      }
+      main {
+        margin-left: 18%;
+        padding: 20px;
+      }
+      section {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+      }
+      .exp-box {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .skills-list {
+        list-style: none;
+        padding: 0;
+      }
+      .skills-list li {
+        background-color: #007bff;
+        color: white;
+        padding: 8px;
+        margin: 5px;
+        border-radius: 5px;
+        display: inline-block;
+      }
+      .proj-box {
+        width: 90%;
+        margin: 20px auto;
+        background-color: #f8f8f8;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .proj-box img {
+        width: 100px;
+        border-radius: 5px;
+      }
+      #contact {
+        width: 80%;
+        margin: 0 auto;
+      }
+      input,
+      textarea {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button {
+        background-color: #007bff;
+        color: blanc;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        width: 100%;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        width: 85%;
+        margin-left: 15%;
+      }
+      p {
+        font-family: "Roboto Mono", monospace;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>GARNAOUI Ismail</h1>
+      <h3>Elève Ingenieur en Genie Informatique</h3>
+      <nav>
+        <a href="#aprp">A propos </a>
+        <a href="#prc">Experience </a>
+        <a href="#cpt">Compétences</a>
+        <a href="#prj">Projects </a>
+        <a href="#ctc">Contact</a>
+      </nav>
+    </header>
+    <aside>
+      <img src="icon.png" class="profil-img" />
+      <h2>Informations</h2>
+      <p style="line-height: 2">
+        <strong>Email:</strong> ismailgr200@gmail.com <br />
+        <strong>Téléphone:</strong><br />
+        +212 612-345678 <br />
+        <strong>Adresse:</strong><br />
+        Rabat, Maroc <br />
+        <strong>Réseaux:</strong><br />
+        <a
+          href="https://www.linkedin.com/in/ismail-garnaoui-b467322a5/?originalSubdomain=ma"
+          target="_blank"
+          >LinkedIn</a
+        >|
+        <a href="https://github.com/ismailgr10" target="_blank">GitHub</a>
+      </p>
+    </aside>
+    <main>
+      <section id="apropos">
+        <h2 id="aprp">À propos de moi :</h2>
+        <p>
+          Passionné par le développement web et la cybersécurité. J’adore
+          relever des défis techniques, apprendre de nouvelles technologies et
+          créer des projets qui allient performance, design et sécurité. Curieux
+          et motivé, je cherche toujours à repousser mes limites pour progresser
+          et transformer mes idées en solutions concrètes.
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2 id="prc">Parcours academique :</h2>
+        <div class="exp-box">
+          <p>
+            <strong
+              >1<sup>ére</sup> année Cycle d'ingénieur | Génie
+              Informatique</strong
+            ><br />2025 - Présent | Ecole Nationale des Sciences Appliquées -
+            Berrechid
+          </p>
+
+          <p>
+            <strong>Cycle préparatoire</strong><br />2023 - 2025 | Ecole
+            Nationale des Sciences Appliquées - Berrechid
+          </p>
+        </div>
+      </section>
+
+      <section id="competences">
+        <h2 id="cpt">Compétences :</h2>
+        <ul class="skills-list">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>Matlab</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="projets">
+        <h2 id="prj">Projets :</h2>
+        <div class="proj-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFcZbbEnhjLiowtscEmZkKPuyoYvOgHgXI1w&s" />
+          <p>
+            <strong>Portfolio Personnel:</strong> Site web personnel développé
+            avec HTML, CSS et JS.
+          </p>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1qFygjsIS4ZRHzt2Lo4knR3-pHylbahXVSA&s" />
+          <p>
+            <strong>Application de Gestion:</strong> Outil de gestion des tâches
+            avec React et Firebase.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 id="ctc">Contactez-moi :</h2>
+        <form>
+          <label>Nom :</label><br />
+          <input type="text" /><br /><br />
+          <label>Email :</label><br />
+          <input type="email" /><br /><br />
+          <label>Message :</label><br />
+          <textarea rows="4"></textarea><br /><br />
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>@2025 Ismail-Gr -Tous droits réservés</p>
+    </footer>
+  </body>
+</html>
